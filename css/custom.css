@@ -124,3 +124,22 @@
     padding: 15px;
 }
 
+.hero {
+    background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover.jpg);
+    background-size: cover; 
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-text h2 {    
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #0000003d;    
+    font-weight: bold;
+}
