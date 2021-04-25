@@ -181,3 +181,43 @@
     justify-content: center;
     align-items: center;
 }
+
+.blog-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.b-title {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.blog-card {
+    background-color: beige;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+
+.blog-wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-wrapper a:hover {
+    color: purple;
+}
+
+.color {
+    background: #EDFA3C;
+}
+
+.color img {
+    height: 100%;
+    width: 100%;
+}
