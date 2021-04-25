@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -23,7 +25,6 @@
 .navigation {
     background-color: #65CFFF;
     padding: 20px 0;
-
 }
 
 .menu {
@@ -34,7 +35,6 @@
     text-decoration: none;
     color: #000000;
     margin-left: 25px;
-    font-weight: bold;
 }
 
 .menu a:hover {
@@ -151,10 +151,11 @@
 .blog-content {
     background: white;
     border-radius: 10px;
-    height:100vh;
-    max-width: 800px;
+    max-width: 80vw;
     margin: auto;
     margin-top: -50px;
+    padding: 100px;
+    line-height: 2;
 }
 
 .video-content {
@@ -174,12 +175,14 @@
 
 .post-title {
     background: #2E4C85;;
-    font-weight: bold;
+    font-weight: normal;
     display: flex;
     height: 300px;
     color: white;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    font-size: 3rem;
 }
 
 .blog-wrapper {
@@ -192,12 +195,13 @@
 }
 
 .b-title {
-    padding-top: 10px;
+    padding: 10px;
     text-align: center;
+    color: #ffffff;
 }
 
 .blog-card {
-    background-color: beige;
+    background-color: #007db7;
     height: 300px;
     display: grid;
     grid-template-rows: 4fr 1fr;
