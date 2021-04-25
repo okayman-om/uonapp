@@ -124,7 +124,7 @@
     padding: 15px;
 }
 
-.hero {
+.banner {
     background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cover.jpg);
     background-size: cover; 
     height: 20vh;
@@ -133,13 +133,51 @@
     justify-content: center;
 }
 
-.hero-text {
+.banner-text {
     text-align: center;
     color: #ffffff;
 }
 
-.hero-text h2 {    
+.banner-text h2 {    
     font-size: 50px;
     text-shadow: 2px 2px 2px #0000003d;    
     font-weight: bold;
+}
+
+.blog-background {
+    background:rgba(149, 157, 165, 0.2);
+}
+
+.blog-content {
+    background: white;
+    border-radius: 10px;
+    height:100vh;
+    max-width: 800px;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.video-content {
+    padding-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video {
+    padding-top: 10px;
+}
+
+.video-title {
+    padding: 10px;
+}
+
+.post-title {
+    background: #2E4C85;;
+    font-weight: bold;
+    display: flex;
+    height: 300px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
