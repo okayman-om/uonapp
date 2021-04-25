@@ -188,7 +188,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
 .b-title {
@@ -209,8 +209,9 @@
     color: black;
 }
 
-.blog-wrapper a:hover {
+.blog-wrapper a:hover .blog-card{
     color: purple;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.40);
 }
 
 .color {
